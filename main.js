@@ -4,7 +4,9 @@ const app = Vue.createApp({
             product: 'Socks',
             description: 'A warm fuzzy pair of socks.',
             image: './assets/images/socks_green.jpg',
-            url: 'https://www.vuemastery.com/'
+            url: 'https://www.vuemastery.com/',
+            inventory: 8,
+            onSale: false 
         }
     }
 })
