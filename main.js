@@ -5,6 +5,7 @@ const app = Vue.createApp({
             product: 'Socks',
             description: 'A warm fuzzy pair of socks.',
             image: './assets/images/socks_green.jpg',
+            inStock: false,
             url: 'https://www.vuemastery.com/',
             inventory: 8,
             onSale: false,
